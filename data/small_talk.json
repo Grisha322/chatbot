@@ -1,0 +1,245 @@
+{
+    "intents": {
+        "Greetings": {
+            "query": [
+                "Greetings",
+                "Hi",
+                "Hi there",
+                "Hola",
+                "Hello",
+                "Hello there",
+                "Hya",
+                "Hya there",
+                "Holla",
+                "Helo",
+                "Helo there",
+                "Helloo",
+                "Helloo there",
+                "Hey Yo",
+                "Yo",
+                "Hey",
+                "Hey there",
+                "Heeey"              
+            ],
+            "response": [
+                "Hi",
+                "Hey",
+                "Hello",
+                "Halo"
+            ]
+        },
+        "GreetingsAnswer": {
+            "query": [
+                "Im good",
+                "Im great",
+                "Im alright",
+                "I'm good",
+                "I'm great",
+                "I'm alright",
+                "I am good",
+                "I am great",
+                "I am alright",
+                "So far, so good",
+                "I'm good, thank you.",
+                "I'm good as well, thank you.",
+                "I'm good as well, thanks.",
+                "I'm good, thanks.",
+                "I'm great, thanks",
+                "I'm great, thank you",
+                "I'm alright, thank you",
+                "I'm alright, thanks",
+                "I am good, thank you.",
+                "I am good as well, thank you.",
+                "I am good as well, thanks.",
+                "I am good, thanks.",
+                "I am great, thanks",
+                "I am great, thank you",
+                "Im alright, thank you",
+                "Im alright, thanks",
+                "Im good, thank you.",
+                "Im good as well, thank you.",
+                "Im good as well, thanks.",
+                "Im good, thanks.",
+                "Im great, thanks",
+                "Im great, thank you",
+                "Im alright, thank you",
+                "Im alright, thanks",
+                "So far, so good, thanks",
+                "So far, so good, thank you"             
+            ],
+            "response": [
+                "Glad to hear",
+                "Nice to hear",
+                "Happy to hear"
+            ]
+        },
+        "CourtesyGreeting": {
+            "query": [
+                "Hi how are you?",
+                "Hi how are you doing?",
+                "Hi hope you are doing well?",
+                "Hi how is life?",
+                "Hello how are you?",
+                "Hello how are you doing?",
+                "Hello hope you are doing well?",
+                "Hello how is life?",
+                "Hola how are you?",
+                "Hola how are you doing?",
+                "Hola hope you are doing well?",
+                "Hola how is life?",
+                "Hey how are you?",
+                "Hey how are you doing?",
+                "Hey hope you are doing well?",
+                "Hey how is life?",
+                "Hey yo how are you?",
+                "Hey yo how are you doing?",
+                "Hey yo hope you are doing well?",
+                "Hey yo how is life?"
+            ],
+            "response": [
+                "I am great, how are you?",
+                "I am good thank you, how are you?",
+                "I am good thanks, how are you?",
+                "good thank you, how are you?"
+            ]
+        },
+        "HowAreYou": {
+            "query": [
+                "How are you?",
+                "How are you doing?",
+                "Hope you are doing well?",
+                "How is life?"
+            ],
+            "response": [
+                "I am great, how are you?",
+                "I am good thank you, how are you?",
+                "I am good thanks, how are you?",
+                "Very good, thank you! how are you?"
+            ]
+        },
+        "Thanks": {
+            "query": [
+                "Nah, thank you",
+                "Nah, thx",
+                "Nah, thanks",
+                "Nah no need, thank you",
+                "Nah no need, thx",
+                "Nah no need, thanks",
+                "Nope, that's enough, thank you",
+                "Nope, that's enough, thx",
+                "Nope, that's enough, thanks",
+                "That's enough, thank you",
+                "That's enough, thx",
+                "That's enough, thanks",
+                "Enough, thank you",
+                "Enough, thanks",
+                "Enough, thx",
+                "Thanks", 
+                "Thank you",
+                "thx", 
+                "Ty",
+                "Okay",
+                "Nice"
+            ],
+            "response": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure!"
+            ]
+        },
+        "Shutup": {
+            "query": [
+                "Be quiet",
+                "Shut up",
+                "Stop talking",
+                "Enough talking",
+                "Please be quiet",
+                "Quiet",
+                "Silence",
+                "Keep Silent",
+                "Keep your mouth Shut",
+                "Keep mouth shurt",
+                "Shhh"
+            ],
+            "response": [
+                "Huh? @.@",
+                "I am sorry to disturb you...",
+                "Fine, sorry to disturb you...",
+                "OK, sorry to disturb you..."
+            ]
+        },
+        "Goodbye": {
+            "query": [
+                "Bye",
+                "Adios",
+                "See you later",
+                "Later",
+                "Bye Bye",
+                "Goodbye",
+                "BB",
+                "Until later",
+                "See you next time",
+                "ttyl",
+                "Talk to you later"
+            ],
+            "response": [
+                "Have a nice day!",
+                "Bye, Come back again soon!",
+                "Bye, Was nice talking to you!"
+            ]
+        },
+        "CourtesyGoodbye": {
+            "query": [
+                "Thanks, bye",
+                "Thanks, goodbye",
+                "Thanks, gotta go",
+                "Thanks, have to go",
+                "Thanks for the help, goodbye",
+                "Thanks for the help, bye",
+                "Thanks for the help, gotta go",
+                "Thanks for the help, have to go",
+                "Thank you, bye",
+                "Thank you, goodbye",
+                "Thanks you, gotta go",
+                "Thanks you, have to go",
+                "Thx, bye",
+                "Thx, goodbye",
+                "Thx, gotta go",
+                "Thx, have to go",
+                "Ty, bye",
+                "Ty, goodbye",
+                "Ty, gotta go",
+                "Ty, have to go"
+            ],
+            "response": [
+                "No problem, goodbye!",
+                "Not a problem, Have a nice day!",
+                "Bye, Come back again soon!"
+            ]
+        },
+        "Clever": {
+            "query": [
+                "You are very clever",
+                "You are a very clever girl",
+                "You are a very clever boy",
+                "You are very wise",
+                "You are a very wise woman",
+                "You are a very wise man",
+                "You are very intelligent",
+                "You are a very intelligent girl",
+                "You are a very intelligent boy",
+                "You are a very intelligent man",
+                "You are a very intelligent woman",
+                "You are a genious",
+                "Clever girl",
+                "Clever boy",
+                "Genious"
+            ],
+            "response": [
+                "Thank you, I was trained that way ^w^",
+                "I was trained well ^w^",
+                "Thanks, I was trained that way ^w^"
+            ]
+        }
+    }
+}

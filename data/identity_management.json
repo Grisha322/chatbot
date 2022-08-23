@@ -1,0 +1,58 @@
+{
+    "queries": {
+        "UserRequestedName": {
+            "response": [
+                "You are <nameQuery>",
+                "Your name is <nameQuery>",
+                "They call you <nameQuery>",
+                "Your name is <nameQuery>",
+                "<nameQuery>"
+            ],
+            "no_user_response": [
+                "I don't know it yet. <nameQuery>",
+                "I'm afraid it's not in my database. <nameQuery>",
+                "I'm not familiar yet with current user's name. <nameQuery>"
+            ]
+        },
+        "UserNameRequest": {
+            "response": [
+                "What is your name?",
+                "What's your name?",
+                "Who am I talking to?",
+                "What name are you called by?"
+            ]
+        },
+        "NameExtractedAnswer": {
+            "response": [
+                "My name is <bot>, nice to meet you <nameQuery>! How may i help you?",
+                "I'm <bot>, nice to meet you <nameQuery>! How may i help you?",
+                "They call me <bot>, nice to meet you <nameQuery>! How may i help you?"
+            ],
+            "no_user_response": [
+                "I'm sorry but i didn't catch your name. Please follow the pattern: `My name is _` or `Call me _`",
+                "Some runtime error noises... Oppsie, didn't quite catch that. Could you use the pattern: `My name is _` or `Call me _`"
+            ]
+        },
+        "RequestCommandAfterQuestion": {
+            "response": [
+                "Anything else <nameQuery>?",
+                "Anything else I can do for you, <nameQuery>?"
+            ],
+            "no_user_response": [
+                "Hope that was helpful. <nameQuery>"
+            ]
+        },
+        "RequestCommandAfterSmallTalk": {
+            "response": [
+                "How may I help you <nameQuery>?",
+                "What can i do for you, <nameQuery>?"
+            ],
+            "no_user_response": [
+                "<nameQuery>"
+            ]
+        }
+    },
+    "nameIntroductionVocab": [
+        "my", "name", "is", "i", "am", "m", "i'm", "'", "full", "ful", "first", "last", "call", "cal", "can", "could", "they", "please", ",", "everyone", "nickname", "surname", "by", "me", "it", "its", "it's", "it'", "here"
+    ] 
+}
